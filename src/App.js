@@ -9,14 +9,9 @@ function App() {
         <p>
           Hello from Akshay!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        
           Something coming soon!!!!
-        </a>
+        
       </header>
     </div>
   );
