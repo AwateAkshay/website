@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets//WhatsApp Image 2021-02-01 at 21.00.35.jpeg";
+// import myImg from "../../Assets//WhatsApp Image 2021-02-01 at 21.00.35.jpeg";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
@@ -17,12 +17,15 @@ function Home2() {
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
-             <br />
+              <br />
               <br />I am having my command on
               <i>
-                <b className="purples"> Javascript, React, Node.JS, Git, MongoDB, ExpressJS </b>
+                <b className="purples">
+                  {" "}
+                  Javascript, React, Node.JS, Git, MongoDB, ExpressJS{" "}
+                </b>
               </i>
-             <br />
+              <br />
               <br />I also have a bit knowledgeof
               <i>
                 <b className="purples"> C++, Python, C </b>
@@ -31,18 +34,14 @@ function Home2() {
               <br />
               My current focus is on;
               <i>
-                <b className="purples">
-                  Web Development
-                </b>
+                <b className="purples">Web Development</b>
               </i>
               <br />
-              <br />
-              I apply my passion for developing products
-              with
+              <br />I apply my passion for developing products with
               <i>
                 <b className="purples"> Modern Javascript Frameworks</b>
               </i>
-                &nbsp; like
+              &nbsp; like
               <i>
                 <b className="purples"> Node.js and React.js</b>
               </i>
@@ -51,20 +50,24 @@ function Home2() {
               <br />
               <br />
               <i>
-               <b>Always eager to learn new things.<br /> I am also exploring the field of <i className="purples"> App Development.</i><br /> I have a bit knowledge of </b>
-               <b className="purples">Machine Learning as well</b>
+                <b>
+                  Always eager to learn new things.
+                  <br /> I am also exploring the field of{" "}
+                  <i className="purples"> App Development.</i>
+                  <br /> I have a bit knowledge of{" "}
+                </b>
+                <b className="purples">Machine Learning as well</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              {/* <img src={myImg} className="img-fluid" alt="avatar" /> */}
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-
             <p>
               Feel free to <span className="purples">connect </span>with me
             </p>
