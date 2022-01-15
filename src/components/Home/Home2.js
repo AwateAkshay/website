@@ -15,19 +15,19 @@ function Home2() {
               LET ME <span className="purples"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and Never broke with it.
               <br />
-              <br />I am having my command on
+              <br />Currently working with building secure Containers
               <i>
                 <b className="purples">
                   {" "}
-                  Javascript, React, Node.JS, Git, MongoDB, ExpressJS{" "}
+                  and deploying in kubernetes environments
                 </b>
               </i>
               <br />
               <br />I also have a bit knowledgeof
-              <i>
+             </p>
+              {/* <i>
                 <b className="purples"> C++, Python, C </b>
               </i>
               <br />
@@ -58,7 +58,7 @@ function Home2() {
                 </b>
                 <b className="purples">Machine Learning as well</b>
               </i>
-            </p>
+            </p> */}
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
